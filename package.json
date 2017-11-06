@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.1",
+    "co": "^4.6.0",
     "mongoose": "^4.3.7"
   }
 }
