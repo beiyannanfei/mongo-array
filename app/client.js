@@ -13,6 +13,12 @@ let t1Schema = new Schema({
 	tags: [String],
 	dim_cm: [Number]
 }, {versionKey: false});
+exports.t1Model = mongoose.model("t1", t1Schema);
 
-module.exports = mongoose.model("t1", t1Schema);
+let t2Schema = new Schema({
+	item: String,
+	instock: [mongoose.Schema.Types.Mixed]
+}, {versionKey: false});
+exports.t2Model = mongoose.model("t2", t2Schema);
+
 

@@ -3,7 +3,7 @@
  */
 const Bluebird = require("bluebird");
 const co = require("co");
-const client = require("./client.js");
+const client = require("./client.js").t1Model;
 
 function run() {
 	co(function *() {
