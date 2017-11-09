@@ -28,5 +28,9 @@ let t3Schema = new Schema({
 }, {versionKey: false});
 exports.t3Model = mongoose.model("t3", t3Schema);
 
-
+let t4Schema = new Schema({
+	grades: [Number],
+	others: [mongoose.Schema.Types.Mixed]
+}, {versionKey: false});
+exports.t4Model = mongoose.model("t4", t4Schema);
 
