@@ -44,3 +44,11 @@ let t6Schema = new Schema({
 	scores: [Number]
 }, {versionKey: false});
 exports.t6Model = mongoose.model("t6", t6Schema);
+
+let t7Schema = new Schema({
+	fruits: [String],
+	vegetables: [String],
+	votes: [Number],
+	results: [mongoose.Schema.Types.Mixed]
+}, {versionKey: false});
+exports.t7Model = mongoose.model("t7", t7Schema);
