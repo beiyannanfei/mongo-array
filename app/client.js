@@ -39,3 +39,8 @@ let t5Schema = new Schema({
 	tags: [mongoose.Schema.Types.Mixed]
 }, {versionKey: false});
 exports.t5Model = mongoose.model("t5", t5Schema);
+
+let t6Schema = new Schema({
+	scores: [Number]
+}, {versionKey: false});
+exports.t6Model = mongoose.model("t6", t6Schema);
