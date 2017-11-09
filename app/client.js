@@ -34,3 +34,8 @@ let t4Schema = new Schema({
 }, {versionKey: false});
 exports.t4Model = mongoose.model("t4", t4Schema);
 
+let t5Schema = new Schema({
+	item: String,
+	tags: [mongoose.Schema.Types.Mixed]
+}, {versionKey: false});
+exports.t5Model = mongoose.model("t5", t5Schema);
