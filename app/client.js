@@ -64,3 +64,8 @@ let t9Schema = new Schema({
 	quizzes: [mongoose.Schema.Types.Mixed]
 }, {versionKey: false});
 exports.t9Model = mongoose.model("t9", t9Schema);
+
+let t10Schema = new Schema({
+	scores: [Number]
+}, {versionKey: false});
+exports.t10Model = mongoose.model("t10", t10Schema);
