@@ -52,3 +52,8 @@ let t7Schema = new Schema({
 	results: [mongoose.Schema.Types.Mixed]
 }, {versionKey: false});
 exports.t7Model = mongoose.model("t7", t7Schema);
+
+let t8Schema = new Schema({
+	a: [Number]
+}, {versionKey: false});
+exports.t8Model = mongoose.model("t8", t8Schema);
