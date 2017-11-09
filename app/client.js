@@ -57,3 +57,10 @@ let t8Schema = new Schema({
 	a: [Number]
 }, {versionKey: false});
 exports.t8Model = mongoose.model("t8", t8Schema);
+
+let t9Schema = new Schema({
+	name: String,
+	scores: [Number],
+	quizzes: [mongoose.Schema.Types.Mixed]
+}, {versionKey: false});
+exports.t9Model = mongoose.model("t9", t9Schema);
