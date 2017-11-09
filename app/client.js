@@ -69,3 +69,8 @@ let t10Schema = new Schema({
 	scores: [Number]
 }, {versionKey: false});
 exports.t10Model = mongoose.model("t10", t10Schema);
+
+let t11Schema = new Schema({
+	scores: [Number]
+}, {versionKey: false});
+exports.t11Model = mongoose.model("t11", t11Schema);
