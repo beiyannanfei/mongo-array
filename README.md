@@ -2,6 +2,6 @@
 
 <div  align="center">    
     <img src="https://github.com/beiyannanfei/mongo-array/blob/master/img/alipay.jpg" width = "150" height = "150" alt="beiyannanfei.apipay"/>
-    <span style="display:inline-block;width:30px;opacity:0">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
     <img src="https://github.com/beiyannanfei/mongo-array/blob/master/img/wechatPay.jpg" width = "150" height = "150" alt="beiyannanfei.wechat"/>
 </div>
