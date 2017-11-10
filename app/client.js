@@ -74,3 +74,9 @@ let t11Schema = new Schema({
 	scores: [Number]
 }, {versionKey: false});
 exports.t11Model = mongoose.model("t11", t11Schema);
+
+let t12Schema = new Schema({
+	name: String,
+	scores: [Number]
+}, {versionKey: false});
+exports.t12Model = mongoose.model("t12", t12Schema);
